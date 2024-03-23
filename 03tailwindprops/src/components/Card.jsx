@@ -25,3 +25,12 @@ function Card({username, btnText="visit me"}) {
 }
 
 export default Card
+
+
+// ek component se dusre component me value pass kr skte hai
+// or uss value ko agr hme receive
+ // krna hai to card me jb bhi hum function declare kr rhe hai card hme props ka access hota hai
+ // original syntax
+ // function Card(props){
+//   console.log("props",props);
+//  }
