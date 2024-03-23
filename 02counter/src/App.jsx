@@ -12,10 +12,17 @@ function App() {
   const addValue = () =>{
     // console.log("clicked",Math.random());
   //  console.log("clicked",counter);
-    counter = counter + 1    
-    setcounter(counter)
+ //   counter = counter + 1    
+    // setcounter(counter+1)
+    // setcounter(counter+1)
+    // setcounter(counter+1)
+    // setcounter(counter+1)
+    setcounter(prevCounter => prevCounter+1)              //*********************INTERVIEW QUESTION************ */
+    setcounter(prevCounter => prevCounter+1)
+    setcounter(prevCounter => prevCounter+1)
+    setcounter(prevCounter => prevCounter+1)
   }
-
+// fiber grp me usko update dega
   const removeValue =()=>{
 
    // console.log("clicked",counter);
